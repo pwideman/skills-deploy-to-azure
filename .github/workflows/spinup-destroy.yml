@@ -6,10 +6,10 @@ on:
 
 env:
   IMAGE_REGISTRY_URL: ghcr.io
-  AZURE_RESOURCE_GROUP: pmw-cd-with-actions
-  AZURE_APP_PLAN: pmw-actions-ttt-deployment
+  AZURE_RESOURCE_GROUP: pwideman-cd-with-actions
+  AZURE_APP_PLAN: pwideman-actions-ttt-deployment
   AZURE_LOCATION: '"East US"'
-  AZURE_WEBAPP_NAME: pmw-ttt-app
+  AZURE_WEBAPP_NAME: pwideman-ttt-app
 
 jobs:
   setup-up-azure-resources:
