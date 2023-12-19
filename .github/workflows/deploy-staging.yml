@@ -6,8 +6,8 @@ on:
 
 env:
   IMAGE_REGISTRY_URL: ghcr.io
-  DOCKER_IMAGE_NAME: pmw-azure-ttt
-  AZURE_WEBAPP_NAME: pmw-ttt-app
+  DOCKER_IMAGE_NAME: pwideman-azure-ttt
+  AZURE_WEBAPP_NAME: pwideman-ttt-app
 
 jobs:
   build:
